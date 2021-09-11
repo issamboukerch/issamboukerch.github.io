@@ -4,8 +4,70 @@ body {
     padding: 0px;
     margin: 0px;
     width: 1519px;
+    
 }
+@media  (max-width: 750px) {
+    .draw-page{
+        width: 750px;
+        display: flex;
+    }
+    .header{
+        width: 500px;
+        display: flex;
+    }
+    .contents{
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+        margin-left: 100px;
 
+    }
+    .side-bar{
+        margin-left: 200px;
+    }
+   .mein{
+       display: flex;
+       flex-direction: column;
+       width: 759px;
+   }
+   .layout{
+       display: flex;
+       flex-direction: column;
+       
+}
+    .layout-1{
+        display: flex;
+        flex-direction: column;
+        margin-left: 160px;
+    }
+    .layout-3{
+        display: flex;
+        flex-direction: column;
+        padding-left: 160px;
+    }
+    .layout-2{
+        display: flex;
+        flex-direction: column;
+        padding-left: 160px;
+    }
+    .page-2{
+        margin-left: 95px;
+        
+    }
+    .page-2-img img{
+       width: 502px;
+    }
+    .foot-2{
+        display: flex;
+        flex-direction: column;
+        position: sticky;
+        margin-top: 100px;
+        margin-left: -480px;
+    }
+ 
+}
+    
+        
 /*header*/
 .header {
     display: flex;
@@ -293,7 +355,7 @@ td {
 
 .page-2-img img {
     height: 330px;
-    width: 590px;
+    
 }
 
 .page-2-container h2 {
@@ -375,20 +437,20 @@ td {
 
 .layout-1 {
     width: 379px;
-    height: 675px;
+    
     margin: 10px 20px;
     margin-left: 160px;
 }
 
 .layout-2 {
     width: 379px;
-    height: 675px;
+    
     margin: 10px 20px;
 }
 
 .layout-3 {
     width: 379px;
-    height: 675px;
+   
     margin: 10px 20px;
     margin-right: 160px;
 }
@@ -446,7 +508,7 @@ td {
 
 .mein-1 {
     background-color: rgb(255, 255, 255);
-    height: 10507px;
+    
 }
 
 .paid {
