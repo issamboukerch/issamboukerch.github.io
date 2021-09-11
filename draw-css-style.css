@@ -9,7 +9,7 @@ body {
 @media  (max-width: 750px) {
     .draw-page{
         width: 750px;
-        display: flex;
+        
     }
     .header{
         width: 500px;
