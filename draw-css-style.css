@@ -62,7 +62,10 @@ body {
         flex-direction: column;
         position: sticky;
         margin-top: 100px;
-        margin-left: -480px;
+        margin-left: -335px;
+    }
+    .div-5{
+        margin-left: 500px;
     }
  
 }
